@@ -1,0 +1,186 @@
+header {
+  min-height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('images/drew-coffman.jpg');
+  background-color: #000;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  position: relative;
+}
+
+main .intro-text h2 {
+  font-family: 'Alegreya Sans', sans-serif;
+  margin-top: 70px;
+}
+
+header .nav-wrapper {
+  background-color: #fff;
+  height: 90px;
+  color: black;
+  z-index: 3;
+  /* width: 100% */
+}
+
+header .logo-list a {
+  color: rgb(133, 133, 133);
+}
+
+header .logo-list a:hover {
+  color: rgb(46, 46, 46);
+}
+
+.full-wrapper {
+  background-color: #fff;
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.baking-container {
+  text-align: left;
+  margin-top: 0;
+}
+
+.social-status {
+  background-color: #8e7754;
+  color: #ddd;
+}
+
+.social-status .wrapper div {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 20%;
+}
+.social-status div p:nth-of-type(3) {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.social-status div p:nth-of-type(2) {
+  font-size: 3rem;
+}
+
+/*
+**  End about styles
+*/
+
+/*
+**  start our offers styles
+*/
+header {
+  min-height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('images/drew-coffman.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position: relative;
+}
+.intro-text.our-offers p {
+  font-size: 0.9rem;
+}
+
+.intro-text.our-offers h2 {
+  font-size: 3.5rem;
+}
+
+.intro-text.our-offers a {
+  color: #d3b281;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.wrapper.prices div {
+  color: rgba(0, 0, 0, 0.7);
+  margin: 20px 20px;
+}
+
+.wrapper.prices span {
+  float: right;
+}
+div.nav-wrapper {
+  z-index: 3;
+}
+/*
+** End our offers styles
+*/
+
+/*
+**  start gallery styles
+*/
+header.gallery {
+  min-height: 90px;
+
+  width: 100%;
+  position: relative;
+}
+
+.wrapper.images div {
+  margin: 5px;
+  width: 30%;
+}
+section.main-gallery {
+  text-align: center;
+  margin: 20px auto;
+}
+
+section.main-gallery h1 {
+  font-size: 3rem;
+}
+/*
+** end gallery styles
+*/
+/*
+** Contact styles
+*/
+.contact .wrapper div:nth-of-type(1) {
+  width: 60%;
+  float: left;
+}
+
+.form-container table,
+td {
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+table tr,
+table td {
+  width: 50%;
+  margin: 10px;
+}
+input,
+textarea {
+  padding: 15px;
+  width: 100%;
+  border: 1px solid #afafaf;
+  margin: 10px 0;
+}
+
+textarea {
+  min-width: 100%;
+  /* margin: 5px 5px; */
+  /* margin-bottom: 20px; */
+}
+
+form button {
+  background-color: #8e7754;
+  color: #fff;
+}
+
+.contact-info ul {
+  list-style: none;
+  margin: 15px;
+}
+
+.contact-info ul li {
+  padding: 15px;
+}
+
+.contact-info ul li i {
+  padding: 0 10px;
+}

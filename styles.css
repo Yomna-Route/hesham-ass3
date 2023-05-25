@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Pacifico&display=swap');
+
+/*
+font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+
+*/
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  height: 1000px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('images/drew-coffman.jpg');
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position: relative;
+}
+
+.active-page {
+  border-top: 2px solid #8e7754;
+  color: #ccaf83;
+}
+
+.clr {
+  clear: both;
+}
+
+/* 
+    ***** @START Navbar styles ****
+*/
+.nav-wrapper {
+  position: fixed;
+  top: 0;
+  width: 1200px;
+  left: 50%;
+  transform: translatex(-50%);
+  z-index:3;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+nav .logo-list {
+  float: right;
+}
+
+nav .logo-list ul {
+  list-style-type: none;
+}
+
+nav .logo-list li {
+  float: left;
+  /* padding: 0 20px; */
+}
+
+nav .logo-list a {
+  display: inline-block;
+  /* margin-top: 35px; */
+  padding: 30px 20px;
+  /* margin-top: 35px; */
+  /* border: 1px solid yellow; */
+}
+
+nav .logo-list a:hover {
+  color: #d1d1d1;
+}
+
+nav .logo-icon {
+  float: left;
+  /* width: 250px; */
+}
+nav .logo-icon img {
+  width: 250px;
+  padding: 10px;
+}
+
+/* 
+    ***** @END Navbar styles ****
+*/
+/* 
+    ***** @START Main styles ****
+*/
+
+main {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+main h1 {
+  padding: 20px;
+  font-size: 5rem;
+  font-family: 'Pacifico', cursive;
+}
+
+button {
+  border: none;
+  padding: 20px;
+  margin: 50px 10px;
+  font-family: 'Alegreya Sans', sans-serif;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.btn-style-brown {
+  background-color: #8e7754;
+  color: white;
+}
+
+.btn-style-brown:hover,
+.btn-style-transpernt:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-style-transpernt {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
+.scroll-down {
+  border: 2px solid #fff;
+  font-size: 5rem;
+  width: 40px;
+  height: 60px;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.scroll-down a {
+  position: absolute;
+  top: -35px;
+  left: 9px;
+  transition: opacity 1s ease-in;
+  animation: go-down 2s infinite;
+}
+@keyframes go-down {
+  from {
+    top: -35px;
+    opacity: 1;
+  }
+  to {
+    top: -10px;
+    opacity: 0;
+  }
+}
+/* 
+    ***** @END Main styles ****
+*/
+
+/* 
+    ***** @START Section2 styles ****
+*/
+
+#section2 {
+  margin-top: 50px;
+  font-weight: normal;
+  color: #444;
+}
+
+#section2 .detailes-pic {
+  float: left;
+  width: 500px;
+}
+
+#section2 .detailes-info {
+  float: right;
+  width: 600px;
+  padding: 50px;
+  font-size: 1.2rem;
+}
+
+#section2 .detailes-info h2 {
+  padding: 10px 0;
+}
+
+#section2 .detailes-info p {
+  padding: 30px 0;
+}
+
+#section2 ul {
+  padding: 10px 0;
+  list-style: none;
+}
+#section2 ul li {
+  padding: 20px 0;
+}
+
+#section2 i {
+  display: inline-block;
+  padding: 0 10px 0 0;
+}
+
+#section2 .detailes-pic img {
+  width: 550px;
+}
+
+/* 
+    ***** @END Section2 styles ****
+*/
+/* 
+    ***** @START Section3 styles ****
+*/
+
+#section3 {
+  margin-top: 50px;
+  font-weight: normal;
+  color: #444;
+}
+
+#section3 .detailes-pic {
+  float: right;
+  width: 500px;
+}
+
+#section3 .detailes-info {
+  float: left;
+  width: 600px;
+  padding: 50px;
+  font-size: 1.2rem;
+}
+
+#section3 .detailes-info h2 {
+  padding: 10px 0;
+}
+
+#section3 .detailes-info p {
+  padding: 30px 0;
+}
+
+#section3 ul {
+  padding: 10px 0;
+  list-style: none;
+}
+#section3 ul li {
+  padding: 20px 0;
+}
+
+#section3 i {
+  display: inline-block;
+  padding: 0 10px 0 0;
+}
+
+#section3 .detailes-pic img {
+  width: 550px;
+}
+
+/* 
+    ***** @END Section3 styles ****
+*/
+
+/* 
+    ***** @START our baking styles ****
+*/
+.our-baking {
+  color: #444;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.our-baking h2 {
+  padding: 40px;
+}
+
+.our-baking .baking-container {
+  margin-top: 50px;
+}
+.baking-container .wrapper div {
+  width: 30%;
+  float: left;
+  margin-left: 30px;
+}
+
+.baking-container div h2,
+.baking-container div p {
+  padding: 20px;
+  line-height: 2rem;
+}
+.baking-container img {
+  width: 100%;
+}
+
+/* 
+    ***** @END our baking styles ****
+*/
+
+/* 
+    ***** @START contact information styles ****
+*/
+
+/* 
+    ***** @END contact information styles ****
+*/
+#contact-info {
+  margin-top: 50px;
+  font-weight: normal;
+  color: #444;
+}
+
+#contact-info .detailes-pic {
+  float: right;
+  width: 500px;
+}
+
+#contact-info .detailes-info {
+  float: left;
+  width: 600px;
+  padding: 50px;
+  font-size: 1.2rem;
+}
+
+#contact-info .detailes-info h2 {
+  padding: 10px 0;
+}
+
+#contact-info .detailes-info p {
+  padding: 20px 0;
+}
+
+#contact-info ul {
+  padding: 10px 0;
+  list-style: none;
+}
+#contact-info ul li {
+  padding: 20px 0;
+}
+
+#contact-info i {
+  display: inline-block;
+  padding: 0 10px 0 0;
+}
+
+#contact-info .detailes-pic iframe {
+  width: 600px;
+  padding: 50px;
+}
+
+/* 
+    ***** @START footer up styles ****
+*/
+.footer-up {
+  background-color: #403d38;
+}
+
+.footer-up .wrapper {
+  margin: 0 auto;
+  width: 1400px;
+}
+
+.footer-up .info {
+  color: #adadad;
+}
+.footer-up h3 {
+  color: #dfdfdf;
+  padding: 20px 0;
+}
+.footer-up ul {
+  list-style: none;
+}
+.footer-up li {
+  padding: 10px;
+}
+
+.row {
+  padding: 50px;
+  /* vertical-align: text-top; */
+}
+.row .info {
+  /* display: inline-block; */
+  float: left;
+  width: 300px;
+  padding-left: 50px;
+}
+
+.row hr {
+  opacity: 0.2;
+}
+
+/*
+    ***** @End footer up styles ****
+*/
+
+.footer-down {
+  background-color: #353330;
+  height: 100%;
+  color: #ddd;
+}
+
+.footer-down .footer-down-img {
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0 10px 0;
+}
+
+.footer-down .social-media {
+  text-align: center;
+  margin: 0 auto;
+  margin: 30px;
+  padding: 30px 10px;
+}
+
+.footer-down .social-media a {
+  padding: 5px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.social-media i:nth-of-type(1):hover {
+  background-color: blue;
+}
